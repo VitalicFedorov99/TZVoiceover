@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd243127fa4d3cf46a5b6af15135233e, type: 3}
+  m_Name: JainaCharacter
+  m_EditorClassIdentifier: 
+  Name: 'Jaina Proudmoore '
+  PortraitBig: {fileID: 21300000, guid: 1963f18eb86c6a2459f39e69a92c7f52, type: 3}
+  PortraitSmall: {fileID: 21300000, guid: 76176a45cf3e646418f88b1e9a3db518, type: 3}
+  Description: 'Lady Jaina Proudmoore is the daughter of Daelin and Katherine Proudmoore,
+    and sister of Derek and Tandred. She is considered one of the finest mages in
+    all Azeroth and the most powerful human sorceress alive. She is the Lord Admiral
+    of Kul Tiras, the former leader of the Kirin Tor of Dalaran, and of the port-city
+    of Theramore. '

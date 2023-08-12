@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd243127fa4d3cf46a5b6af15135233e, type: 3}
+  m_Name: ArthasCharacter
+  m_EditorClassIdentifier: 
+  Name: 'Arthas Menethil '
+  PortraitBig: {fileID: 21300000, guid: f3aa87d42b00dd24cbfe8655c88faf85, type: 3}
+  PortraitSmall: {fileID: 21300000, guid: 36d4693051b0df6439d0415ac02040df, type: 3}
+  Description: 'Arthas Menethil, Crown Prince of Lordaeron and Knight of the Silver
+    Hand, was the son of King Terenas Menethil II and heir to the throne. He was
+    trained as a paladin by Uther the Lightbringer and was inducted into the Order
+    of the Silver Hand. Arthas also had a romantic relationship with the kind sorceress
+    Jaina Proudmoore. Committed to the protection of his people, Arthas was determined
+    to stop the plague spreading throughout Lordaeron. '
