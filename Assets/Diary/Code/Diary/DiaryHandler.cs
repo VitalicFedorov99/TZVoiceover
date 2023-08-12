@@ -15,7 +15,7 @@ public class DiaryHandler : MonoBehaviour
     [SerializeField] GameEvent diaryPageChanged;
 
     bool isOpen;
-    TypePage pageType;
+    TypePage pageType = TypePage.Nun;
     public void Close() // OnDiaryClose
     {
         if (!isOpen)
@@ -40,7 +40,7 @@ public class DiaryHandler : MonoBehaviour
         else if (dataContainer.isChangeValue)
         diaryPageChanged.Raise();
 
-
+        pageType = TypePage.Character;
         diaryView.UpdateDiaryView(dataContainer.Value);
 
     }
@@ -52,10 +52,12 @@ public class DiaryHandler : MonoBehaviour
             diaryOpenedEvent.Raise();
             StartCoroutine(Utils.FadeAlpha(canvasGroup, 0, 1, fadeTime));
             isOpen = true;
+            diaryPageChanged.Raise();
         }
-        if(pageType!=TypePage.Options)
+        else if(pageType!=TypePage.Options)
         diaryPageChanged.Raise();
 
+        dataContainer.SetValue(null);
         pageType = TypePage.Options;
         diaryView.OpenOptions();
     }
